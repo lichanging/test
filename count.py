@@ -2,7 +2,7 @@
 numn=0
 numy=0
 numy2=0
-
+发大水发个方法很快
 for line in open('F:/News_pic_label_train.txt', 'r').readlines():
 	arr=line.split('\t')
 	if arr[1]=='0':
