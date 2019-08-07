@@ -16,4 +16,8 @@
         'userInfo'
       ])
       
-3. xx
+3.  前端vue项目中，各个组件（非父子关系也可）之间可以通过声明this.$root.$on('functionName',callback) 全局Bus进行事件通信，调用this.$root.$emit("事件名", 参数1, 参数2, ...);  
+    该方法存在问题：
+        有时候会发生事件只被emit触发了一次，但是回调函数却被执行了多次的现象。这种现象往往发生在页面跳转退出后重新进入的时候。
+    解决方案：
+        在vue组件的beforeDetory钩子函数中将本vue组件往Bus容器中添加的时间监听器全部手动移除：this.$root.off("事件名");
