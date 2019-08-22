@@ -1,0 +1,1 @@
+本地新建一个和远程分支同名的分支        git checkout --track origin/branch_name
