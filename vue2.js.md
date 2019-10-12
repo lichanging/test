@@ -27,4 +27,24 @@
 
 6.  在code之前一定要把大致架构想清楚了，在模棱两可的情况下就去码代码，只会事半功倍
 
-7.  
+7.  变量在data中没有声明。在方法里面，如果  
+      let attr = false
+      if(ture){
+         this.attr = true
+      }
+    这样attr就声明到全局了
+
+8.  vue和react一样变量可以用来存放div 
+    const a = <div> </div>
+
+9.  element dialog自定义，
+    <span slot="footer" class="dialog-footer">
+      <el-button @click="dialogVisible = false">取 消</el-button>
+      <el-button type="primary" @click="handle()">确 定</el-button>
+    </span>
+    handle()是不能从当前表格中获取值的，可以自定义一个方法去判断dialogVisible，并可以在data中创建一个变量存储该值
+    可以参考 https://segmentfault.com/q/1010000010176928/a-1020000010177906
+
+10.  axios异步调用，要想获取返回值，需要在then中还有axios之前增加return语句
+
+11.  elementUI事件回调函数传默认值和自定义参数的问题  https://blog.csdn.net/wangchaohpu/article/details/85697771
