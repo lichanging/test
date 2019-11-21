@@ -4,4 +4,9 @@
 
 3. 后端向前端传的Date()格式如果未经转字符串处理，则在前端进行字符串拼接时会存在问题！！！！
       
-4.	
+4. 监控服务器资源比如内存、磁盘等的使用情况。 处理方案： 脚本统计, 提供接口统一访问   专门的运维工具，比如普罗米修斯、beat  之类的可采集数据
+
+5. java.nio.charset.MalformedInputException: Input length = 1  
+文件编码异常 https://blog.csdn.net/congzi0424/article/details/52162288
+
+6. 
