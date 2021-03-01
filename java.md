@@ -9,4 +9,5 @@
 5. java.nio.charset.MalformedInputException: Input length = 1  
 文件编码异常 https://blog.csdn.net/congzi0424/article/details/52162288
 
-6. 
+6. java.sql.SQLException: Incorrect string value: '\xE7\x96\xAF\xE7\x96\xAF...' for column 'name' at row 1
+    解决方案：mysql和java中文编码错误。java使用utf8，mysql数据库、表、字段统一用utf8 （特别注意具体到字段！！！）
