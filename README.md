@@ -1,3 +1,24 @@
-# 记录工作中遇到的bug
-# 记录工作中新get到的技能
-......
+# 记录工作中遇到的bug、新get到的技能
+
+
+1. [database](https://github.com/lichanging/variousTrouble/blob/master/database.md)
+
+2. [git](https://github.com/lichanging/variousTrouble/blob/master/git%20%20command.md)
+
+3. [java](https://github.com/lichanging/variousTrouble/blob/master/java.md)
+
+4. [js](https://github.com/lichanging/variousTrouble/blob/master/javascript.md)
+
+5. [jni](https://github.com/lichanging/variousTrouble/blob/master/jni.md)
+
+6. [mongodb](https://github.com/lichanging/variousTrouble/blob/master/mongodb.md)
+
+7. [mybatis](https://github.com/lichanging/variousTrouble/blob/master/mybatis.md)
+
+8. [redis](https://github.com/lichanging/variousTrouble/blob/master/redis.md)
+
+9. [sqlserver](https://github.com/lichanging/variousTrouble/blob/master/sqlserver.md)
+
+10. [vuejs](https://github.com/lichanging/variousTrouble/blob/master/vue2.js.md)
+
+11. [设计模式](https://github.com/lichanging/variousTrouble/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
