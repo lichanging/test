@@ -11,3 +11,10 @@
 
 6. java.sql.SQLException: Incorrect string value: '\xE7\x96\xAF\xE7\x96\xAF...' for column 'name' at row 1
     解决方案：mysql和java中文编码错误。java使用utf8，mysql数据库、表、字段统一用utf8 （特别注意具体到字段！！！）
+
+7. 运行jar、war包
+```
+java -jar projectName.jar --spring.config.location=./application.properties
+
+```
+
