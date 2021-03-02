@@ -22,3 +22,7 @@
 10. [vuejs](https://github.com/lichanging/variousTrouble/blob/master/vue2.js.md)
 
 11. [设计模式](https://github.com/lichanging/variousTrouble/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+
+12. [threejs](https://github.com/lichanging/variousTrouble/blob/master/threejs.md)
+
+13. [maven](https://github.com/lichanging/variousTrouble/blob/master/maven.md)
