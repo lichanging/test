@@ -20,11 +20,15 @@ java -jar projectName.jar --spring.config.location=./application.properties
 
 8.unzip java.lang.IllegalArgumentException: MALFORMED
 ```
-            //利用Tika的AutoDetectReader类检测文件的编码格式  https://tika.apache.org/1.17/api/org/apache/tika/detect/AutoDetectReader.html
+            //利用Tika的AutoDetectReader类检测文件的编码格式 
+            //https://tika.apache.org/1.17/api/org/apache/tika/detect/AutoDetectReader.html
             AutoDetectReader dr = new AutoDetectReader(new FileInputStream(file));
             Charset charset = dr.getCharset();
 ```
 
 9.idea远程调试jar服务
 参考网址： https://blog.csdn.net/miwanmeng/article/details/85283562
-注意事项：类似于-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 这样的语句直接拷贝由idea生成的    如果debug失效了解决办法是停掉idea服务和远程服务后重新启动
+注意事项：
+类似于-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 这样的语句直接拷贝由idea生成的    
+
+如果debug失效了解决办法是停掉idea服务和远程服务后重新启动
